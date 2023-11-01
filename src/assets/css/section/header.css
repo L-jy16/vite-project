@@ -13,18 +13,35 @@
     background-color: var(--subBg300);
     padding: 1rem;
     color: var(--subBg100);
+
 }
 
 .header__logo {
-    font-size: 1.3rem;
+    width: 40%;
+    font-size: 1.5rem;
     font-weight: 800;
     font-family: var(--mainEng-font);
+    box-sizing: border-box;
 }
 
-.header__nav {}
+.header__nav {
+    width: 60%;
+}
 
-.header__nav ul {}
+.header__nav ul {
+    display: flex;
+    justify-content: right;
+}
+
 
 .header__nav li {
     display: inline;
+    padding: 0.3vh 1.5vw;
+}
+
+.header__nav ul>li>a {
+    text-transform: uppercase;
+    font-family: var(--mainEng-font);
+    font-weight: 500;
+    font-size: 1.3rem;
 }

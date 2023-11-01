@@ -100,14 +100,21 @@
     background-image: url(../../img/face.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 50pc;
+    border-radius: 50%;
     /* margin: 3rem; */
 }
 
 .intro__text .img::after {
     content: '';
-    background-color: #fff;
+    /* background-color: #fff; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 30vh;
     height: 30vh;
-
+    background-image: url(../../img/flower.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
 }
