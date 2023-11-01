@@ -1,0 +1,24 @@
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    display: none;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+}
+
+.header__logo {}
+
+.header__nav {}
+
+.header__nav li {
+    display: inline;
+}

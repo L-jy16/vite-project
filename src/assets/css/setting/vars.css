@@ -1,0 +1,38 @@
+:root {
+    --mainEng-font: "Montserrat";
+    --mainKor-font: "nanumSquareNeo";
+    --mainNum-font: "gmarket";
+
+    --mainBg-color: #fdf7dd;
+    --mainfont-color: #023c44;
+    --subBg100: #ffffff;
+    --subBg200: #ffffff;
+    --subBg300: #023c44;
+    --subBg400: #ffffff;
+    --subBg500: #ffffff;
+
+    --white: #ffffff;
+    --black: #000000;
+    --black100: #000000;
+    --black200: #000000;
+    --black300: #000000;
+    --black400: #000000;
+    --black500: #000000;
+
+    /* 폰트를 부드럽게 렌더링하기 위한 속성  */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* 아이폰 가로 모드에서 글씨 확대 금지 */
+    -webkit-text-size-adjust: 100%;
+}
+
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}

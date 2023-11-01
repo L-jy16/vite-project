@@ -21,17 +21,20 @@ Vite는 빠른 개발 속도, ES 모듈 사용, 다중 언어 지원, 플러그�
 
 8. 가볍고 간단한 설정: Vite는 간단한 설정 파일을 가지고 있으며, 초기 설정을 빠르게 구성할 수 있습니다.
 
+## 구현 기능
+- 구글 폰트 적용
+
 ## 트러블 슈팅
 <details>
 <summary>git 업로드 버그</summary>
-권한으로 인한 업로드 버그 현상이 생김 > 해결  
-- git 업로드 설정 :   
-1. The requested URL returned error: 403 Pushing to ... 에러 내용   
-2. git remote -v    
-3. git remote set-url origin https://[Your-Name]@github.com/[Your-Name][repo-name].git   
-    예제. git remote set-url origin https://L-jy16@github.com/L-jy16/vite-project.git   
-4. git remote -v https://[Your-Name]@github.com/[Your-Name][repo-name].git 나의 리스트가 뜨는지 확인   
-5. git push -u origin master   
-6. 패스워드 입력하라는창이 나오면 패스워드 입력   
-7. VS code 재시작하고 다시 push하기
+권한으로 인한 업로드 버그 현상이 생김 > 해결<br/>
+- git 업로드 설정 :<br/>
+1. The requested URL returned error: 403 Pushing to ... 에러 내용<br/>
+2. git remote -v<br/>
+3. git remote set-url origin https://[Your-Name]@github.com/[Your-Name][repo-name].git<br/>
+    예제. git remote set-url origin https://L-jy16@github.com/L-jy16/vite-project.git<br/>
+4. git remote -v https://[Your-Name]@github.com/[Your-Name][repo-name].git 나의 리스트가 뜨는지 확인<br/>
+5. git push -u origin master<br/>
+6. 패스워드 입력하라는창이 나오면 패스워드 입력<br/>
+7. VS code 재시작하고 다시 push하기<br/>
 </details>
