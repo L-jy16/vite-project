@@ -24,15 +24,14 @@ Vite는 빠른 개발 속도, ES 모듈 사용, 다중 언어 지원, 플러그�
 ## 트러블 슈팅
 <details>
 <summary>git 업로드 버그</summary>
-권한으로 인한 업로드 버그 현상이 생김 > 해결
-- git 업로드 설정 : 
-1. The requested URL returned error: 403 Pushing to ... 에러 내용
-2. git remote -v
-3. git remote set-url origin https://[Your-Name]@github.com/[Your-Name][repo-name].git
-    예제. git remote set-url origin h나의 ttps://L-jy16@github.com/L-jy16/vite-project.git
-나의 4. git remote -v
-h나의 ttps://[Your-Name]@github.com/[Your-Name][repo-name].git 나의 리스트가 뜨는지 확인
-5. git push -u origin master
-6. 패스워드 입력하라는창이 나오면 패스워드 입력
+권한으로 인한 업로드 버그 현상이 생김 > 해결  
+- git 업로드 설정 :   
+1. The requested URL returned error: 403 Pushing to ... 에러 내용   
+2. git remote -v    
+3. git remote set-url origin https://[Your-Name]@github.com/[Your-Name][repo-name].git   
+    예제. git remote set-url origin https://L-jy16@github.com/L-jy16/vite-project.git   
+4. git remote -v https://[Your-Name]@github.com/[Your-Name][repo-name].git 나의 리스트가 뜨는지 확인   
+5. git push -u origin master   
+6. 패스워드 입력하라는창이 나오면 패스워드 입력   
 7. VS code 재시작하고 다시 push하기
 </details>
