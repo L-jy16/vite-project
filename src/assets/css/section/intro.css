@@ -14,10 +14,10 @@
 }
 
 .intro__title {
-    font-size: 7vw;
+    font-size: 8vw;
     text-transform: uppercase;
-    font-weight: 400;
-    font-family: var(--mainEng-font);
+    font-weight: 500;
+    font-family: var(--mainTit-font);
     line-height: 1;
     letter-spacing: -0.5vw;
     color: var(--mainfont-color);

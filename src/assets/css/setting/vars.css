@@ -2,10 +2,11 @@
     --mainEng-font: "Montserrat";
     --mainKor-font: "nanumSquareNeo";
     --mainNum-font: "gmarket";
+    --mainTit-font: "overpass";
 
     --mainBg-color: #fdf7dd;
     --mainfont-color: #023c44;
-    --subBg100: #ffffff;
+    --subBg100: #fdf7dd;
     --subBg200: #ffffff;
     --subBg300: #023c44;
     --subBg400: #ffffff;
