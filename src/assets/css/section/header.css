@@ -36,7 +36,7 @@
 
 .header__nav li {
     display: inline;
-    padding: 0.3vh 1.5vw;
+    padding: 0.3vh 1.8vw;
 }
 
 .header__nav ul>li>a {
@@ -44,4 +44,46 @@
     font-family: var(--mainEng-font);
     font-weight: 500;
     font-size: 1.3rem;
+}
+
+.header_nav__mobile {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: none;
+}
+.header_nav__mobile span {
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: var(--subBg100);
+    margin-top: 19px;
+    position: relative;
+}
+.header_nav__mobile span::before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: var(--subBg100);
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
+.header_nav__mobile span::after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: var(--subBg100);
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+}
+
+@media (max-width: 800px){
+    .header__nav {
+        display: none;
+    }
+    .header_nav__mobile {
+        display: block;
+    }
 }

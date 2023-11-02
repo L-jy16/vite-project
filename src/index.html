@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vite를 이용한 사이트 만들기</title>
 
-  <link rel="icon" href="assets/img/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
 
 
@@ -46,7 +46,14 @@
           </li>
         </ul>
       </nav>
-      <div class="header_nav__mobile"></div>
+      <div class="header_nav__mobile" 
+      id="headerToggle" 
+      aria-controls="primary-menu" 
+      aria-expanded="false"
+      role="button">
+      
+        <span></span>
+      </div>
     </div>
   </header>
   <!-- //header -->

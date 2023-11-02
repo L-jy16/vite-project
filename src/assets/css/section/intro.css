@@ -94,8 +94,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 30vh;
-    height: 30vh;
+    width: 33vh;
+    height: 33vh;
     /* background-color: #fff; */
     background-image: url(../../img/face.jpg);
     background-position: center;
@@ -111,11 +111,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 30vh;
-    height: 30vh;
+    width: 33vh;
+    height: 33vh;
     background-image: url(../../img/flower.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 50%;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
