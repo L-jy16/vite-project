@@ -76,10 +76,11 @@
     color: var(--subcolor2_400);
     margin-bottom: 1vw;
     padding: 5px 20px;
+    transition: all 0.3s;
 }
 .site__item .btn a:hover {
-    color: var(--subcolor2_400);
-    scale: 1.2;
+    color: var(--subcolor2_600);
+    font-size: 1.7vw;
 }
 
 .site__item .info {
