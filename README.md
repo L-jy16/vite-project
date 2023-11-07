@@ -29,7 +29,7 @@ Vite는 빠른 개발 속도, ES 모듈 사용, 다중 언어 지원, 플러그�
 - JavaScript 모듈 기능 적용
 - 웹표준 준수를 위한 스킵 메뉴 및 aria, role 적용
 - vite 빌드 작업 `npm run build`
-- netilfy 배포 작업
+- netlify 배포 작업
 
 ## 트러블 슈팅
 <details>
