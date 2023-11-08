@@ -144,6 +144,11 @@
     .site__item .btn a {
         font-size: 3vw;
     }
+
+    .site__item .btn a:hover {
+        font-size: 3.5vw;
+    }
+    
     .site__item .info {
         flex-direction: column;
         width: 90%;
